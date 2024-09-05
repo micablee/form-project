@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Form</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="PStyle.css">
+    </head>
+    <body>
+        <h1 id="title">ORDER FORM</h1>
+    
+            <img id="my-img" src="products.jpg">
+            <p id="description"> FILL UP FORM TO ORDER MAKEUP AND SKINCARE PRODUCTS </p>
+            <form method="get" id="order-form" class="w3-container">
+            </form>
+        
+    
+
+       
+
+        <br>
+        <label for="firstname"> First Name</label>
+        <input id="name" class="w3-input" type="text" name="firstname" placeholder="Enter First name" required>
+        <br/>
+        <label for="lastname"> Last Name</label>
+        <input id="name" class="w3-input" type="text" name="lastname" placeholder="Enter Last name" required>
+
+        <br/>
+        <label for="Gender"> Gender</label>
+        <input type="radio" name="condition" value="Female"> Female
+        <input type="radio" name="condition" value="Male"> Male
+        <input type="radio" name="condition" value="Other"> Other
+
+
+        <br>
+        <label for="address"> Address:</label>
+        <textarea class="w3-input" name="address" placeholder="Enter Full Address"required></textarea>
+
+        <br/>
+            <label for="email"> Email:</label>
+            <input id="email" class="w3-input" type="email" name="email" placeholder="Enter email"required>
+
+        <br>
+        <label for="Makeup"> Makeup Product</label>
+        <select class="w3-input" name="Makeup">
+            <option selected disabled> Select Option</option>
+            <option value="Lipstick"> Lipstick</option>
+            <option value="Blush"> Blush</option>
+            <option value="Mascara"> Mascara</option>
+            <option value="Foundation">Foundation</option>
+            <option value="Eyeshadow">Eyeshadow</option>
+            <option value="Concealer">Concealer</option>
+            <option value="Highlighter">Highlighter</option>
+        </select>
+
+            <br>
+            <label for="Quantity">Quantity:</label>
+            <input class="w3-input" type="number" name="Quantity" min="1" max="50">
+
+            <br>
+            <label for="Skincare"> Skin Care Product</label>
+            <select class="w3-input" name="Skincare">
+                <option selected disabled> Select Option</option>
+                <option value="Moisturizer"> Moisturizer</option>
+                <option value="Toner"> Toner</option>
+                <option value="Eyecream"> Eye Cream</option>
+                <option value="Cleanser">Cleanser</option>
+                <option value="Sunscreen">Sunscreen</option>
+                <option value="Lipmask">Lip Mask</option>
+                <option value="Facemask">Face Mask</option>
+            </select>
+    
+                <br>
+                <label for="Quantity">Quantity:</label>
+                <input class="w3-input" type="number" name="Quantity" min="1" max="50">
+
+                <br>
+                <label for="Comments"> Comments:</label>
+                <textarea class="w3-input" name="Comments" maxlength="50" rows="6" cols="30" required></textarea>
+
+        <input id="submit" class="w3-button w3-round-large w3-green" type="submit" value="Submit my information">
+            <br/>
+
+    </body>
+</html>
