@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<title>Chessboard</title>
+<link href="CStyle.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+<div class="chessboard">
+
+    <!-- <div class="row1"></div> -->
+    <div class="beige"><i class="fa-regular fa-chess-rook"></i></div>
+    <div class="red"><i class="fa-regular fa-chess-knight"></i></div>
+    <div class="beige"><i class="fa-regular fa-chess-bishop"></i></div>
+    <div class="red"><i class="fa-regular fa-chess-king"></i></div>
+    <div class="beige"><i class="fa-regular fa-chess-queen"></i></div>
+    <div class="red"><i class="fa-regular fa-chess-bishop"></i></div>
+    <div class="beige"><i class="fa-regular fa-chess-knight"></i></div>
+    <div class="red"><i class="fa-regular fa-chess-rook"></i></div>
+
+    <!-- <div class="row2"></div> -->
+    <div class="red"><i class="fa-regular fa-chess-pawn"></i></div>
+    <div class="beige"><i class="fa-regular fa-chess-pawn"></i></div>
+    <div class="red"><i class="fa-regular fa-chess-pawn"></i></div>
+    <div class="beige"><i class="fa-regular fa-chess-pawn"></i></div>
+    <div class="red"><i class="fa-regular fa-chess-pawn"></i></div>
+    <div class="beige"><i class="fa-regular fa-chess-pawn"></i></div>
+    <div class="red"><i class="fa-regular fa-chess-pawn"></i></div>
+    <div class="beige"><i class="fa-regular fa-chess-pawn"></i></div>
+
+    <!-- <div class="row3"></div> -->
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+
+    <!-- <div class="row4"></div> -->
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+
+    <!-- <div class="row5"></div> -->
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+
+    <!-- <div class="row6"></div> -->
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+    <div class="red"></div>
+    <div class="beige"></div>
+
+    <!-- <div class="row7"></div> -->
+    <div class="beige"><i class="fa-solid fa-chess-pawn"></i></div>
+    <div class="red"><i class="fa-solid fa-chess-pawn"></i></div>
+    <div class="beige"><i class="fa-solid fa-chess-pawn"></i></div>
+    <div class="red"><i class="fa-solid fa-chess-pawn"></i></div>
+    <div class="beige"><i class="fa-solid fa-chess-pawn"></i></div>
+    <div class="red"><i class="fa-solid fa-chess-pawn"></i></div>
+    <div class="beige"><i class="fa-solid fa-chess-pawn"></i></div>
+    <div class="red"><i class="fa-solid fa-chess-pawn"></i></div>
+
+    <!-- <div class="row8"></div> -->
+    <div class="red"><i class="fa-solid fa-chess-rook"></i></div>
+    <div class="beige"><i class="fa-solid fa-chess-knight"></i></div>
+    <div class="red"><i class="fa-solid fa-chess-bishop"></i></div>
+    <div class="beige"><i class="fa-solid fa-chess-king"></i></div>
+    <div class="red"><i class="fa-solid fa-chess-queen"></i></div>
+    <div class="beige"><i class="fa-solid fa-chess-bishop"></i></div>
+    <div class="red"><i class="fa-solid fa-chess-knight"></i></div>
+    <div class="beige"><i class="fa-solid fa-chess-rook"></i></div>
+
+
+
+
+</div>
+</html>
