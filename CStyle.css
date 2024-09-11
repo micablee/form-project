@@ -1,0 +1,26 @@
+.chessboard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+   align-items: center;
+}
+
+.beige, .red{
+    flex: 12.5%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beige{
+    background-color: beige;
+
+}
+
+.red{
+    background-color: rgb(166, 24, 24);
+    color: black;
+}
+
