@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    height: 50px;
+    background-color: #904e68;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: White;
+    padding-inline: 30px;
+    position: sticky;
+    top: 0;
+}
+
+
+
+#bible-logo{
+    font-size: 30px;
+}
+
+#nav-bar, .right{
+    display: none;
+}
+
+.products{
+    max-width: 80%;
+    display: grid;
+    margin: 0 auto;
+    gap: 16px;
+
+}
+
+#item{
+    color: black;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+.product-image{
+    width: 50%;
+    margin-inline: auto;
+    /* margin-left and margin-right */
+    display: block;
+}
+
+.description{
+    padding-left: 16px;
+}
+
+footer{
+    margin-top: 5%;
+    height: auto;
+    background-color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+}
+
+span a {
+    color: #904e68;
+    text-decoration: none;
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .bible-logo {
+        display: block;
+        max-width: 100px;
+    }
+
+    .right{
+        display: flex;
+        gap: 27px;
+    }
+
+    .bible-header{
+        display: none;
+    }
+
+    p:hover{
+        cursor: pointer;
+        text-decoration: underline;
+
+    }
+
+    .products{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .products{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+#video{
+    width: 630px;
+    height: 360px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-inline: auto;
+   
+  
+}
+
+#form{
+    text-align: center;
+    margin-top: 30px;
+    font-family: fantasy;
+    color: #904e68;
+}
+
+h2{
+    /* font-style: normal; */
+    font-family: fantasy;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+a{
+    color: #eeeeee;
+}
+
+h2{
+    color: #904e68;
+}
