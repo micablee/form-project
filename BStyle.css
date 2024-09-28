@@ -32,11 +32,74 @@
     display: grid;
     margin: 0 auto;
     gap: 16px;
-
 }
 
 #item{
-    color: black;
+    color: white;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+#item2{
+    color: white;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+#item3{
+    color: white;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+#item4{
+    color: white;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+#item5{
+    color: white;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+#item6{
+    color: white;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+#item7{
+    color: white;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+#item8{
+    color: white;
+    padding: 1rem;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #904e68;
+}
+
+#item9{
+    color: white;
     padding: 1rem;
     height: auto;
     margin-top: 30px;
@@ -65,8 +128,6 @@ footer{
 span a {
     color: #904e68;
     text-decoration: none;
-
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -107,9 +168,7 @@ span a {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-inline: auto;
-   
-  
+    margin-inline: auto;   
 }
 
 #form{
