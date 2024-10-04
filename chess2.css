@@ -1,0 +1,35 @@
+.chessboard{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 400px;
+    height: 400px;
+
+}
+
+.beige, .red{
+    display: grid;
+    height: 100px;
+    width: 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+.beige{
+    background-color: beige;
+
+}
+
+.red{
+    background-color: rgb(166, 24, 24);
+    color: black;
+}
+
+.fa-regular, .fa-solid{
+    font-size: 2rem;
+}
+
+
+
+
+ 
