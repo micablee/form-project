@@ -1,0 +1,76 @@
+#time{
+    color: rgb(83, 53, 14);
+    font-size: 75px;
+}
+
+.header{
+    text-align: center;
+    color: rgb(83, 53, 14);
+    margin: 20px 0;
+    font-size: 60px;
+}
+
+#name, #editButton{
+    background-color: transparent;
+    color: rgb(83, 53, 14);
+}
+
+body{
+    background-image: url("Bimg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+body, input, button {
+    font-size: 20px;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+#mainGoalHeader{
+    color: rgb(83, 53, 14);
+    font-size: 45px;
+}
+
+#goalInput, #addGoalButton{
+    background-color: transparent;
+    color: rgb(83, 53, 14)
+}
+
+#mainGoalList{
+    color: rgb(83, 53, 14);
+}
+
+
+#randomQuote{
+    color: antiquewhite;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+#taskInput, #addButton{
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 18px;
+    margin: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+ }
