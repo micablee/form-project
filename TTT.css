@@ -1,0 +1,50 @@
+#main {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#board {
+    background-color: rgb(247, 247, 247);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.tictactoeBox {
+    width: 49px;
+    height: 49px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: background-color 0.3s;
+}
+
+.tictactoeBox:nth-child(odd) {
+    background-color: rgb(158 ,95, 192);
+}
+
+.tictactoeBox:nth-child(even) {
+    background-color: rgb(213, 144, 250);
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px;
+}
+
+#resultMessage {
+    font-size: 20px;
+    color: green;
+    margin-top: 10px;
+}
